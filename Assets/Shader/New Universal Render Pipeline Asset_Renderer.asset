@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5887b2d97921a87438831f157ce2caa8, type: 3}
   m_Name: DepthOfFieldRenderFuture
   m_EditorClassIdentifier: Assembly-CSharp::DepthOfFieldRenderFuture
-  m_Active: 0
+  m_Active: 1
   depthTextureMaterial_: {fileID: 2100000, guid: f92c512090ca51643a806598a8b102a5, type: 2}
   depthOfFieldTextureMaterial: {fileID: 2100000, guid: e9050eeb49bd70c4fbfbe0895d1ebe23, type: 2}
   blurTextureMaterial: {fileID: 2100000, guid: e2d0f73de42971c4092af27f723e4ecd, type: 2}
@@ -29,7 +29,21 @@ MonoBehaviour:
   m_Name: ToneMappingRenderFuture
   m_EditorClassIdentifier: Assembly-CSharp::ToneMappingRenderFuture
   m_Active: 0
-  postEffectMaterial_: {fileID: 2100000, guid: cdfdb29dd3b24424dab263b870bb8ff7, type: 2}
+  postEffectMaterial_: {fileID: 2100000, guid: b1d99590e26c9c2429182efc3076fb39, type: 2}
+--- !u!114 &-7602479880407133702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b09d3e9ad0437204ebd3c7a4ddbb7d75, type: 3}
+  m_Name: GreenPostEffectRenderFuture
+  m_EditorClassIdentifier: Assembly-CSharp::GreenPostEffectRenderFuture
+  m_Active: 0
+  postEffectMaterial_: {fileID: 2100000, guid: 2c90aa2a376103244980b5e6e0a54975, type: 2}
 --- !u!114 &-4627604748976289896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -134,7 +148,8 @@ MonoBehaviour:
   - {fileID: 6290865282656121526}
   - {fileID: 3155987819905370933}
   - {fileID: -8010399720999973296}
-  m_RendererFeatureMap: 98875bb8ff71c7bf618d2f3323b56091ced97fb4695a32cf61a5a593fbb567c915c1f7ee67e50611b6328ee6a4a44d57354beb783352cc2b508ee808e557d590
+  - {fileID: -7602479880407133702}
+  m_RendererFeatureMap: 98875bb8ff71c7bf618d2f3323b56091ced97fb4695a32cf61a5a593fbb567c915c1f7ee67e50611b6328ee6a4a44d57354beb783352cc2b508ee808e557d590fa514714d4907e96
   m_UseNativeRenderPass: 0
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 0}
