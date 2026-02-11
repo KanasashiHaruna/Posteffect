@@ -42,7 +42,7 @@ Shader "Custom/DepthOfField"
 
                 half4 inFocusColor=
                 SAMPLE_TEXTURE2D(
-                    _BlurTexture,
+                    _BlitTexture,
                     sampler_LinearClamp,
                     IN.texcoord
                     );

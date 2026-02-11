@@ -24,6 +24,14 @@ public class DepthOfFieldRenderPass : ScriptableRenderPass
         public Material material;
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="renderGraph"><使用しているRenderGraph/param>
+    /// <param name="cameraTexture"><未加工のカメラテクスチャ/param>
+    /// <param name="destinationTexture"><出力先のテクスチャ/param>
+    /// <param name="depthTexture"><深度テクスチャ/param>
+    /// <param name="blurTexture"><ブラーテクスチャ/param>
     private void DepthOfFieldBlit(RenderGraph renderGraph,TextureHandle cameraTexture,TextureHandle destinationTexture,
         TextureHandle depthTexture, TextureHandle blurTexture)
     {
