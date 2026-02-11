@@ -4,13 +4,13 @@ using UnityEngine.Rendering.RenderGraphModule;
 using UnityEngine.Rendering.RenderGraphModule.Util;
 using UnityEngine.Rendering.Universal;
 
-public class PostEffectRenderPass1 : ScriptableRenderPass
+public class PostEffectRenderPass : ScriptableRenderPass
 {
     //private Material material_ = null;
     private Material blurMaterial_ = null;
     private Material passThroughMaterial_ = null;
 
-    public PostEffectRenderPass1(
+    public PostEffectRenderPass(
         Material blurMaterial,
         Material passThroughmaterial
     )
