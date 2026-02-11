@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5887b2d97921a87438831f157ce2caa8, type: 3}
   m_Name: DepthOfFieldRenderFuture
   m_EditorClassIdentifier: Assembly-CSharp::DepthOfFieldRenderFuture
-  m_Active: 1
+  m_Active: 0
   depthTextureMaterial_: {fileID: 2100000, guid: f92c512090ca51643a806598a8b102a5, type: 2}
   depthOfFieldTextureMaterial: {fileID: 2100000, guid: e9050eeb49bd70c4fbfbe0895d1ebe23, type: 2}
   blurTextureMaterial: {fileID: 2100000, guid: e2d0f73de42971c4092af27f723e4ecd, type: 2}
