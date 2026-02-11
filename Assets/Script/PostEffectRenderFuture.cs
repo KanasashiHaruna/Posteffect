@@ -5,12 +5,12 @@ public class PostEffectRenderFuture : ScriptableRendererFeature
 {
     [SerializeField] private Material blurMaterial_;
     [SerializeField] private Material passThroughMaterial_;
-    private PostEffectRenderPass1 renderPass_;
+    private PostEffectRenderPass renderPass_;
 
     public override void Create()
     {
         renderPass_=new
-            PostEffectRenderPass1(blurMaterial_,passThroughMaterial_);
+            PostEffectRenderPass(blurMaterial_,passThroughMaterial_);
 
         renderPass_.renderPassEvent =
             RenderPassEvent.BeforeRenderingPostProcessing;
